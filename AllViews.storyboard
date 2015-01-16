@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A388a" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="a9o-rY-aE2">
+            <objects>
+                <controller id="3K9-Td-xZf">
+                    <items>
+                        <group width="1" alignment="left" id="WVh-Xt-XeE"/>
+                        <table alignment="left" id="Mfw-Sa-Fgx">
+                            <items>
+                                <tableRow id="XWp-dT-9VO">
+                                    <group key="rootItem" width="1" alignment="left" id="1p6-Ic-6jH"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <imageView alignment="left" id="d29-xy-mXo"/>
+                        <separator alignment="left" id="XQL-Jq-A6U"/>
+                        <button width="1" alignment="left" title="Button" id="db3-lh-okQ"/>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="AZT-Be-eSf"/>
+                        <slider width="1" alignment="left" value="0.5" steps="2" id="sKS-8D-3Fn"/>
+                        <label width="1" alignment="left" text="Xamarin QA!" textAlignment="center" id="Fwd-71-xOf"/>
+                        <dateLabel alignment="left" id="QBL-3Z-Weu">
+                            <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
+                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                        </dateLabel>
+                        <timer alignment="left" id="9PA-l7-VfL"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="477" y="294"/>
+        </scene>
+    </scenes>
+</document>
