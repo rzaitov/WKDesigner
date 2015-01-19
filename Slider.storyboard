@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A388a" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="bwL-Vt-Da5">
+            <objects>
+                <controller id="xYi-Wi-csZ">
+                    <items>
+                        <slider width="1" alignment="left" value="5" maximum="5" steps="5" id="yjS-2o-SvT"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="380" y="328"/>
+        </scene>
+    </scenes>
+</document>
